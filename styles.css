@@ -15,7 +15,7 @@ header{
 .menu{
         font-size: 25px;
         line-height: 40px;
-        letter-spacing: 0.875px;
+        letter-spacing: 0.375px;
         color: #2e2e2e;
         margin-right: 100px;
         cursor: pointer;
@@ -28,17 +28,18 @@ section{
 }
 
 img{
-    margin: 60px 0 0 50px;
+    margin: 30px 0 0 20px;
     float: left;
     display: inline-block;
+    width: 450px;
 }
 
 h1{
-    font-size: 50px;
-    line-height: 82px;
+    font-size: 40px;
+    line-height: 55px;
     color: #2e2e2e;
-    letter-spacing: 0.596154px;
-    margin: 60px 10px 0 110px;
+    letter-spacing: 0.196154px;
+    margin: 50px 0 0 90px;
     text-align: center;
 }
 
@@ -47,7 +48,7 @@ p{
     line-height: 60px;
     color: #2e2e2e;
     white-space: pre-line;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     margin: 0 0px 0 50px;
    
 }
@@ -66,8 +67,25 @@ button{
     bottom: 35.9%;
     width: 200px;
     height: 56px;
-    margin: 40px 0 0 40px;
+    margin: 40px 0 0 0;
 }
 
+@media screen and (max-width:800px){
 
+    header{
+        display: none;
+    }
 
+    p{
+        display: none;
+    }
+
+    h1{
+        display: none;
+    }
+  
+    button{
+        margin: 38px 31px 25px 163px;
+    }
+    
+}
