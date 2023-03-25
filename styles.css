@@ -53,7 +53,6 @@ p{
    
 }
 
-
 button{
     background: #ffdb58 ;
     border-radius: 20.5px;
@@ -68,6 +67,7 @@ button{
     width: 200px;
     height: 56px;
     margin: 40px 0 0 0;
+    cursor: pointer;
 }
 
 @media screen and (max-width:800px){
@@ -86,6 +86,7 @@ button{
   
     button{
         margin: 38px 31px 25px 163px;
+        cursor: pointer;
     }
     
 }
