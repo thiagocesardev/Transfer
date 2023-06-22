@@ -66,7 +66,7 @@ button {
     bottom: 35.9%;
     width: 200px;
     height: 56px;
-    margin: 40px 0 0 0;
+    margin: 40px 35px 0;
     cursor: pointer;
 }
 
@@ -89,10 +89,5 @@ button {
         cursor: pointer;
     }
 
-    img {
-        margin: 82px 0 0 20px;
-        float: left;
-        display: inline-block;
-        width: 442px;
-    }
+    
 }
